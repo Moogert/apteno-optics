@@ -100,21 +100,12 @@
         </div>
         <div class="contact-layout">
           <div class="form-panel">
-            <h3>Prepare an email</h3>
-            <p>Complete the fields below, then review the message in your email app before sending it. You can attach photos or videos there if you like.</p>
-            <form id="project-form">
-              <div class="form-row">
-                <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" maxlength="120" aria-describedby="name-error" required><span class="field-error" id="name-error"></span></div>
-                <div class="field"><label for="reply-email">Your email</label><input id="reply-email" name="replyEmail" type="email" autocomplete="email" maxlength="254" aria-describedby="reply-email-error" required><span class="field-error" id="reply-email-error"></span></div>
-              </div>
-              <div class="form-row">
-                <div class="field"><label for="phone">Phone <span class="optional">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></div>
-                <div class="field"><label for="surface">Surface</label><select id="surface" name="surface"><option value="Not sure yet">Choose one</option><option>Wood</option><option>Metal</option><option>Not sure yet</option></select></div>
-              </div>
-              <div class="field"><label for="message">What would you like cleaned?</label><textarea id="message" name="message" rows="5" maxlength="2000" aria-describedby="message-error" required></textarea><span class="field-error" id="message-error"></span></div>
-              <button class="button form-submit" type="submit">Prepare email <span aria-hidden="true">→</span></button>
-              <p id="contact-status" class="status" role="status" aria-live="polite">Your email app will open with a draft. You send it when ready.</p>
-            </form>
+            <h3>Send a project inquiry</h3>
+            <p>Describe the surface and the work you have in mind. You can include photos or a short video.</p>
+            <div class="tally-form-wrap">
+              <iframe data-tally-src="https://tally.so/embed/Eq5W9r?alignLeft=1&amp;hideTitle=1&amp;dynamicHeight=1" loading="lazy" width="100%" height="200" title="Apteno Optics project inquiry form"></iframe>
+            </div>
+            <p class="form-fallback">Having trouble with the form? <a href="https://tally.so/r/Eq5W9r" target="_blank" rel="noopener noreferrer">Open it in a new tab</a>.</p>
           </div>
           <aside class="contact-channels" aria-label="Other contact options">
             <h3>Other ways to reach us</h3>
@@ -147,7 +138,7 @@
       <span>Original draft used <a href="https://html5up.net/landed">Landed by HTML5 UP</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>). <a href="LICENSE.txt">License</a>.</span>
     </div>
   </footer>
-  <script src="assets/js/contact-form.js"></script>
+  <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e){e.src=e.dataset.tallySrc})};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s)}</script>
   <script src="assets/js/theme.js"></script>
 </body>
 </html>
