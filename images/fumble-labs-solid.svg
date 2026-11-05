@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Fumble Labs — solid circular logo</title>
+  <desc id="desc">A lightly polished hand-drawn figure with a surprised expression and an ambiguous floating football-like shape, inside a black circular emblem.</desc>
+  <circle cx="128" cy="128" r="124" fill="#111111"/>
+  <g id="illustration" transform="translate(-18 -2) scale(1.18)" fill="none" stroke="#F7F3E8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+
+    <path id="head" d="M 76,45 C 82,44 89,44 96,44 C 104,50 107,61 109,70 C 111,76 114,81 110,87 C 106,93 99,96 91,97 C 82,98 74,95 69,90 C 65,85 68,76 70,69 C 73,61 74,53 76,45 Z"/>
+    <path id="left-eye" d="M 81,60 C 81,64 80,68 79,72"/>
+    <path id="right-eye" d="M 94,57 C 95,62 95,67 96,71"/>
+    <path id="mouth" d="M 80,85 C 84,80 90,79 98,80 L 98,87 C 94,90 87,91 81,89 Z"/>
+    <path id="body-and-left-leg" d="M 93,97 C 90,107 88,118 89,130 C 90,145 87,160 81,174"/>
+    <path id="left-arm" d="M 65,101 C 72,104 77,107 81,113 C 85,119 87,124 89,130"/>
+    <path id="right-arm" d="M 89,129 C 94,120 100,112 107,106 C 110,103 113,102 117,102"/>
+    <path id="right-leg" d="M 89,132 C 100,141 109,153 120,167"/>
+    <path id="floating-object" d="M 136,79 C 144,72 153,69 164,69 C 174,69 180,74 181,82 C 175,87 166,90 156,91 C 148,91 140,88 135,84"/>
+    <path id="object-marks" d="M 151,76 L 153,82 M 158,74 L 160,81 M 166,74 L 168,80"/>
+  </g>
+</svg>
